@@ -1,0 +1,517 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Patrick Kirby</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 text-right">
+					<img src="https://en.gravatar.com/userimage/155437344/3142eb93f076e595ff0d0635e775361c.png?size=100" alt="headshot" class="img-circle">
+				</div>
+				<div class="col-sm-9">
+					<h1>
+						Patrick Kirby
+					</h1>
+					<h2>
+						Full Stack JavaScript Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">pkirbyinatx@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(301) 807-3383</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="KirbyPatrick.github.io">KirbyPatrick.github.io</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>A life-learner and new technology nerd, I work hard at the things I love: programming, teaching, and learning.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						PDF Resume
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://KirbyPatrick.github.io/PatrickKirby.pdf">Patrick Kirby</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/kirbypatrick">kirbyPatrick</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/patrick-d-kirby/">PatrickDKirby</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Lifesize</span>
+					<span class="date">
+						2018-04-18 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.lifesize.com/">https://www.lifesize.com/</a>
+				</div>
+				<div class="position">
+					Renewal Specialist
+				</div>
+				<div class="summary">
+					<p>Responsible for all renewal business, hardware and cloud.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Exceeded quota set by management every quarter without fail</li>
+					<li class="bullet">Drove and managed opportunities through both channel and direct sales</li>
+					<li class="bullet">Trained channel partners on Lifesize products as well as our sales process</li>
+					<li class="bullet">Displayed ability to accurately forecast, track and manage business</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>SkillsEngine</span>
+					<span class="date">
+						2017-10-16 — 2019-03-13
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://skillsengine.com">https://skillsengine.com</a>
+				</div>
+				<div class="position">
+					Senior Software Engineer
+				</div>
+				<div class="summary">
+					<p>Develop web service around skill predicting and aligning machine-learning driven service</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Work with modern web stack: React + Redux, Ruby on Rails</li>
+					<li class="bullet">Agile environment and collaborative coding</li>
+					<li class="bullet">Full Stack development, worked on all corners of the code base, services, and integrations</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Continuum Analytics</span>
+					<span class="date">
+						2015-06-08 — 2017-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://continuum.io">https://continuum.io</a>
+				</div>
+				<div class="position">
+					Software Engineer
+				</div>
+				<div class="summary">
+					<p>Bokeh contributor, an open-source python driven graph generator. Implemented and designed client-specific projects and solutions.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Worked on https://anaconda.org, a packaging and environment manager repository</li>
+					<li class="bullet">Contributed to open-source packages such as Bokeh (https://bokeh.pydata.org)</li>
+					<li class="bullet">Fast-paced full-stack client-specific projects with modern web development stacks</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Generation Ready</span>
+					<span class="date">
+						2013-11-01 — 2015-06-05
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://generationready.com">https://generationready.com</a>
+				</div>
+				<div class="position">
+					Lead Software Engineer + Architect
+				</div>
+				<div class="summary">
+					<p>Designed, built, and maintained in-house internet software. Headed small team of web developers and quality assurance technicians.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Flourished in a fast-paced, agile environment</li>
+					<li class="bullet">Developed deep PHP and Javascript skills</li>
+					<li class="bullet">Learned and implemented new technologies often</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	
+	
+    <section id="projects" class="row">
+        <aside class="col-sm-3">
+            <h3>Projects</h3>
+        </aside>
+        <div class="col-sm-9">
+            <div class="row">
+            <div class="col-sm-12">
+                <div class="name">
+                    <a href="https://github.com/AustinCodingAcademy/campus-manager"><h4>Campus Manager</h4></a>
+                </div>
+                <div class="summary">
+                    <span></span>
+                </div>
+				<ul class="highlights">
+					<li>Learning Management System and Course Management Tool</li>
+					<li>Creator and current maintainer</li>
+					<li>Over 700 Users</li>
+					<li>Supports web hooks with Zapier</li>
+					<li>Powerful reporting engine</li>
+					<li>Built with MongoDB, Node.js, Express.js, Passport.js, Backbone.js, and React.js</li>
+				</ul>
+            </div>
+            <div class="col-sm-12">
+                <div class="name">
+                    <a href="https://ad-free-life.herokuapp.com/"><h4>AdFree.Life</h4></a>
+                </div>
+                <div class="summary">
+                    <span></span>
+                </div>
+				<ul class="highlights">
+					<li>Adblocking as a Service</li>
+					<li>Sets up a pre-configured Pi-Hole on a dedicated VPS</li>
+					<li>Uses cron jobs to generate trials</li>
+					<li>Hit #11 on Hacker News! (https://news.ycombinator.com/item?id=14910683)</li>
+					<li>Registration currently disabled while licensing is figured out</li>
+				</ul>
+            </div>
+            <div class="col-sm-12">
+                <div class="name">
+                    <a href="https://github.com/kevincolten/yosql"><h4>YoSQL</h4></a>
+                </div>
+                <div class="summary">
+                    <span></span>
+                </div>
+				<ul class="highlights">
+					<li>Converts NoSQL databases and JSON collections into SQL tables</li>
+					<li>Creator and current maintainer</li>
+					<li>Integrates with Zapier for web hook functionality</li>
+					<li>Save and share queries</li>
+					<li>API to integrate with any SPA frontend</li>
+				</ul>
+            </div>
+            </div>
+        </div>
+    </section>
+
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Languages</h4>
+				</div>
+				<ul class="keywords">
+					<li>JavaScript/Node.js</li>
+					<li>Ruby</li>
+					<li>PHP</li>
+					<li>Python</li>
+					<li>SQL</li>
+					<li>NoSQL</li>
+					<li>Bash</li>
+					<li>Linux</li>
+					<li>C#</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML/CSS</li>
+					<li>JavaScript/jQuery</li>
+					<li>Express/Node.js</li>
+					<li>Backbone/React + Redux</li>
+					<li>Rails</li>
+					<li>Laravel</li>
+					<li>Bootstrap/Foundation/Material</li>
+					<li>MongoDB</li>
+					<li>MySQL/Postgres/Sqlite</li>
+					<li>Authorization/Authentication</li>
+					<li>Responsive/Mobile Development</li>
+					<li>Bokeh/Bokeh Server</li>
+					<li>Grunt/Gulp/Webpack</li>
+					<li>SASS/LESS/UglifyJS</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Technologies</h4>
+				</div>
+				<ul class="keywords">
+					<li>Continuous Integration</li>
+					<li>Automated Deployment</li>
+					<li>Automated Testing</li>
+					<li>AWS/Heroku/DigitalOcean</li>
+					<li>Heroku/Build Packs</li>
+					<li>Git/GitHub</li>
+					<li>Grunt/Gulp/WebPack</li>
+					<li>REST APIs</li>
+					<li>Automated SSL Certificates</li>
+					<li>Data Visualization</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+
+	</div>
+	
+	</body>
+</html>

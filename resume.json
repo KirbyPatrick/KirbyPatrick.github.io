@@ -1,0 +1,196 @@
+{
+  "basics": {
+    "name": "Patrick Kirby",
+    "label": "Full Stack JavaScript Developer",
+    "picture": "https://en.gravatar.com/userimage/155437344/3142eb93f076e595ff0d0635e775361c.png?size=100",
+    "email": "pkirbyinatx@gmail.com",
+    "website": "KirbyPatrick.github.io",
+    "summary": "A life-learner and new technology nerd, I work hard at the things I love: programming, teaching, and learning.",
+    "phone": "(301) 807-3383",
+    "location": {
+      "city": "Austin",
+      "region": "Texas"
+    },
+    "profiles": [
+      {
+        "network": "PDF Resume",
+        "username": "Patrick Kirby",
+        "url": "http://KirbyPatrick.github.io/PatrickKirby.pdf"
+      },
+      {
+        "network": "GitHub",
+        "username": "kirbyPatrick",
+        "url": "https://github.com/kirbypatrick"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "PatrickDKirby",
+        "url": "https://www.linkedin.com/in/patrick-d-kirby/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Lifesize",
+      "position": "Renewal Specialist",
+      "website": "https://www.lifesize.com/",
+      "startDate": "2018-04-18",
+      "summary": "Responsible for all renewal business, hardware and cloud.",
+      "highlights": [
+        "Exceeded quota set by management every quarter without fail",
+        "Drove and managed opportunities through both channel and direct sales",
+        "Trained channel partners on Lifesize products as well as our sales process",
+        "Displayed ability to accurately forecast, track and manage business"
+      ]
+    },
+    {
+      "company": "SkillsEngine",
+      "position": "Senior Software Engineer",
+      "website": "https://skillsengine.com",
+      "startDate": "2017-10-16",
+      "endDate": "2019-03-13",
+      "summary": "Develop web service around skill predicting and aligning machine-learning driven service",
+      "highlights": [
+        "Work with modern web stack: React + Redux, Ruby on Rails",
+        "Agile environment and collaborative coding",
+        "Full Stack development, worked on all corners of the code base, services, and integrations"
+      ]
+    },
+    {
+      "company": "Continuum Analytics",
+      "position": "Software Engineer",
+      "website": "https://continuum.io",
+      "startDate": "2015-06-08",
+      "endDate": "2017-01-01",
+      "summary": "Bokeh contributor, an open-source python driven graph generator. Implemented and designed client-specific projects and solutions.",
+      "highlights": [
+        "Worked on https://anaconda.org, a packaging and environment manager repository",
+        "Contributed to open-source packages such as Bokeh (https://bokeh.pydata.org)",
+        "Fast-paced full-stack client-specific projects with modern web development stacks"
+      ]
+    },
+    {
+      "company": "Generation Ready",
+      "position": "Lead Software Engineer + Architect",
+      "website": "https://generationready.com",
+      "startDate": "2013-11-01",
+      "endDate": "2015-06-05",
+      "summary": "Designed, built, and maintained in-house internet software. Headed small team of web developers and quality assurance technicians.",
+      "highlights": [
+        "Flourished in a fast-paced, agile environment",
+        "Developed deep PHP and Javascript skills",
+        "Learned and implemented new technologies often"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Campus Manager",
+      "description": "Learning Management System and Course Management Tool",
+      "highlights": [
+        "Learning Management System and Course Management Tool",
+        "Creator and current maintainer",
+        "Over 700 Users",
+        "Supports web hooks with Zapier",
+        "Powerful reporting engine",
+        "Built with MongoDB, Node.js, Express.js, Passport.js, Backbone.js, and React.js"
+      ],
+      "keywords": [
+        "MongoDB",
+        "Node",
+        "Express",
+        "Passport",
+        "Backbone",
+        "React"
+      ],
+      "url": "https://github.com/AustinCodingAcademy/campus-manager",
+      "roles": [
+        "Creator",
+        "Maintainer"
+      ],
+      "entity": "Austin Coding Academy",
+      "type": "Web Application"
+    },
+    {
+      "name": "AdFree.Life",
+      "highlights": [
+        "Adblocking as a Service",
+        "Sets up a pre-configured Pi-Hole on a dedicated VPS",
+        "Uses cron jobs to generate trials",
+        "Hit #11 on Hacker News! (https://news.ycombinator.com/item?id=14910683)",
+        "Registration currently disabled while licensing is figured out"
+      ],
+      "keywords": [],
+      "url": "https://ad-free-life.herokuapp.com/",
+      "roles": ["Owner"],
+      "entity": "Startup",
+      "type": "SAAS"
+    },
+    {
+      "name": "YoSQL",
+      "highlights": [
+        "Converts NoSQL databases and JSON collections into SQL tables",
+        "Creator and current maintainer",
+        "Integrates with Zapier for web hook functionality",
+        "Save and share queries",
+        "API to integrate with any SPA frontend"
+      ],
+      "keywords": [],
+      "url": "https://github.com/kevincolten/yosql",
+      "roles": ["Creator"],
+      "entity": "Personal",
+      "type": "Library"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords":
+      [
+        "JavaScript/Node.js",
+        "Ruby",
+        "PHP",
+        "Python",
+        "SQL",
+        "NoSQL",
+        "Bash",
+        "Linux",
+        "C#"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML/CSS",
+        "JavaScript/jQuery",
+        "Express/Node.js",
+        "Backbone/React + Redux",
+        "Rails",
+        "Laravel",
+        "Bootstrap/Foundation/Material",
+        "MongoDB",
+        "MySQL/Postgres/Sqlite",
+        "Authorization/Authentication",
+        "Responsive/Mobile Development",
+        "Bokeh/Bokeh Server",
+        "Grunt/Gulp/Webpack",
+        "SASS/LESS/UglifyJS"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "keywords": [
+        "Continuous Integration",
+        "Automated Deployment",
+        "Automated Testing",
+        "AWS/Heroku/DigitalOcean",
+        "Heroku/Build Packs",
+        "Git/GitHub",
+        "Grunt/Gulp/WebPack",
+        "REST APIs",
+        "Automated SSL Certificates",
+        "Data Visualization"
+      ]
+    }
+  ]
+}

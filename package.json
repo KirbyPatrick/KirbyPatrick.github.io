@@ -1,0 +1,24 @@
+{
+  "name": "kirbypatrick.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "resume export index.html --format html --theme flat_projects",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirbyPatrick/KirbyPatrick.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirbyPatrick/KirbyPatrick.github.io/issues"
+  },
+  "homepage": "https://github.com/KirbyPatrick/KirbyPatrick.github.io#readme",
+  "devDependencies": {
+    "jsonresume-theme-flat_projects": "github:kevincolten/jsonresume-theme-flat_projects#84491e5",
+    "resume-cli": "github:kevincolten/resume-cli#b05d465"
+  }
+}
