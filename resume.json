@@ -46,23 +46,22 @@
     {
       "company": "Zepol Sales",
       "position": "Channel Account Manager",
-      "website": "https://skillsengine.com",
-      "startDate": "2017-10-16",
-      "endDate": "2019-03-13",
-      "summary": "Develop web service around skill predicting and aligning machine-learning driven service",
+      "website": "http://www.zepolsales.com/",
+      "startDate": "2017-04-05",
+      "endDate": "2018-04-17",
+      "summary": "Responsible for managing and promoting 3 brands within the SHI Channel (D-link, Humanscale, Tech Products 360) at SHI Austin",
       "highlights": [
-        "Responsible for managing and promoting 3 brands within the SHI Channel (D-link, Humanscale, Tech Products 360) at SHI Austin
-        Organized and conducted numerous offsite events and huddles where I would present my clients’ solutions and help the reps better understand what they were and how they could start a conversation around them with their customers
+        "Organized and conducted numerous offsite events and huddles where I would present my clients’ solutions and help the reps better understand what they were and how they could start a conversation around them with their customers
         Continuously networked within SHI to ensure I stayed in front of as many sales reps as possible
-        Assisted SHI sales reps by answering any questions they may have and helping them find the solution that would best meet their customer’s needs"
+        Assisted SHI sales reps by answering any questions they may have and helping them find the solution that would best meet their customer’s needs."
       ]
     },
     {
-      "company": "Continuum Analytics",
-      "position": "Software Engineer",
-      "website": "https://continuum.io",
-      "startDate": "2015-06-08",
-      "endDate": "2017-01-01",
+      "company": "SHI International",
+      "position": "Inside Sales Account Executive",
+      "website": "https://www.shi.com/",
+      "startDate": "2014-03-15",
+      "endDate": "2017-03-15",
       "summary": "Bokeh contributor, an open-source python driven graph generator. Implemented and designed client-specific projects and solutions.",
       "highlights": [
         "Worked on https://anaconda.org, a packaging and environment manager repository",
