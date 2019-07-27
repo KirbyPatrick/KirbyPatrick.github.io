@@ -90,25 +90,20 @@
   ],
   "projects": [
     {
-      "name": "Campus Manager",
-      "description": "Learning Management System and Course Management Tool",
+      "name": "Brewery Finder",
+      "description": "App built to help people discover local breweries near them",
       "highlights": [
-        "Learning Management System and Course Management Tool",
+        "App designed to help people discover local breweries near them",
         "Creator and current maintainer",
-        "Over 700 Users",
-        "Supports web hooks with Zapier",
-        "Powerful reporting engine",
-        "Built with MongoDB, Node.js, Express.js, Passport.js, Backbone.js, and React.js"
+        "Built with Node.js, BreweryDB API, and React.js"
       ],
       "keywords": [
-        "MongoDB",
         "Node",
-        "Express",
-        "Passport",
-        "Backbone",
-        "React"
+        "REST API",
+        "React",
+        "JavaScript"
       ],
-      "url": "https://github.com/AustinCodingAcademy/campus-manager",
+      "url": "https://github.com/KirbyPatrick/austinbreweryfinder",
       "roles": [
         "Creator",
         "Maintainer"
@@ -117,84 +112,54 @@
       "type": "Web Application"
     },
     {
-      "name": "AdFree.Life",
+      "name": "Chuck Norris Joke Genorator",
       "highlights": [
-        "Adblocking as a Service",
-        "Sets up a pre-configured Pi-Hole on a dedicated VPS",
-        "Uses cron jobs to generate trials",
-        "Hit #11 on Hacker News! (https://news.ycombinator.com/item?id=14910683)",
-        "Registration currently disabled while licensing is figured out"
+        "Randomly generates Chuck Norris jokes",
+        "Uses chucknorris.io to make RESTful API calls",
+        "Built with Node.js, BreweryDB API, and React.js"
       ],
-      "keywords": [],
-      "url": "https://ad-free-life.herokuapp.com/",
-      "roles": ["Owner"],
-      "entity": "Startup",
-      "type": "SAAS"
+      "keywords": [
+        "Node",
+        "REST API",
+        "React",
+        "JavaScript"
+      ],
+      "url": "https://github.com/KirbyPatrick/chuck-norris-joke-genorator",
+      "roles": [
+        "Creator",
+        "Maintainer"
+      ],
+      "entity": "Austin Coding Academy",
+      "type": "Web Application"
     },
-    {
-      "name": "YoSQL",
-      "highlights": [
-        "Converts NoSQL databases and JSON collections into SQL tables",
-        "Creator and current maintainer",
-        "Integrates with Zapier for web hook functionality",
-        "Save and share queries",
-        "API to integrate with any SPA frontend"
-      ],
-      "keywords": [],
-      "url": "https://github.com/kevincolten/yosql",
-      "roles": ["Creator"],
-      "entity": "Personal",
-      "type": "Library"
-    }
   ],
   "skills": [
     {
       "name": "Languages",
       "keywords":
       [
-        "JavaScript/Node.js",
-        "Ruby",
-        "PHP",
-        "Python",
-        "SQL",
-        "NoSQL",
-        "Bash", 
-        "Linux",
-        "C#"
+        "JavaScript/Node.js"
       ]
     },
     {
       "name": "Web Development",
       "keywords": [
         "HTML/CSS",
-        "JavaScript/jQuery",
-        "Express/Node.js",
-        "Backbone/React + Redux",
-        "Rails",
-        "Laravel",
-        "Bootstrap/Foundation/Material",
+        "JavaScript",
+        "Express / Node.js",
+        "React + Redux / Hooks",
+        "Bootstrap / Material",
         "MongoDB",
-        "MySQL/Postgres/Sqlite",
-        "Authorization/Authentication",
-        "Responsive/Mobile Development",
-        "Bokeh/Bokeh Server",
-        "Grunt/Gulp/Webpack",
-        "SASS/LESS/UglifyJS"
+        "Authorization / Authentication",
+        "Responsive / Mobile Development",
       ]
     },
     {
       "name": "Technologies",
       "keywords": [
-        "Continuous Integration",
-        "Automated Deployment",
-        "Automated Testing",
-        "AWS/Heroku/DigitalOcean",
-        "Heroku/Build Packs",
-        "Git/GitHub",
-        "Grunt/Gulp/WebPack",
+        "Heroku",
+        "Git / GitHub",
         "REST APIs",
-        "Automated SSL Certificates",
-        "Data Visualization"
       ]
     }
   ]
