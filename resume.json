@@ -26,6 +26,11 @@
         "network": "LinkedIn",
         "username": "PatrickDKirby",
         "url": "https://www.linkedin.com/in/patrick-d-kirby/"
+      },
+      {
+        "network": "Twitter",
+        "username": "@Kirby_Patrick",
+        "url": "https://twitter.com/Kirby_Patrick"
       }
     ]
   },
@@ -62,7 +67,7 @@
       "website": "https://www.shi.com/",
       "startDate": "2014-03-15",
       "endDate": "2017-03-15",
-      "summary": "Bokeh contributor, an open-source python driven graph generator. Implemented and designed client-specific projects and solutions.",
+      "summary": "Managed large and highly transactional account sets in the Canadian and Tennessee sales territory",
       "highlights": [
         "Worked on https://anaconda.org, a packaging and environment manager repository",
         "Contributed to open-source packages such as Bokeh (https://bokeh.pydata.org)",
@@ -70,16 +75,16 @@
       ]
     },
     {
-      "company": "Generation Ready",
-      "position": "Lead Software Engineer + Architect",
-      "website": "https://generationready.com",
-      "startDate": "2013-11-01",
-      "endDate": "2015-06-05",
-      "summary": "Designed, built, and maintained in-house internet software. Headed small team of web developers and quality assurance technicians.",
+      "company": "QuickGifts",
+      "position": "Inside Sales Specialist",
+      "website": "http://merchant.quickgifts.com/",
+      "startDate": "2013-08-01",
+      "endDate": "2014-01-05",
+      "summary": "Responsible for discovering, pitching and closing decision makers on our solutions",
       "highlights": [
-        "Flourished in a fast-paced, agile environment",
-        "Developed deep PHP and Javascript skills",
-        "Learned and implemented new technologies often"
+        "Prospected and managed own leads in Salesforce",
+        "Consistently hit above monthly quotas",
+        "Worked on multiple projects simultaneously including partnerships with Amazon and Sam’s Club"
       ]
     }
   ],
