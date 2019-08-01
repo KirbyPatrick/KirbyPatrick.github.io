@@ -56,9 +56,9 @@
       "endDate": "2018-04-17",
       "summary": "Responsible for managing and promoting 3 brands within the SHI Channel (D-link, Humanscale, Tech Products 360) at SHI Austin",
       "highlights": [
-        "Organized and conducted numerous offsite events and huddles where I would present my clients’ solutions and help the reps better understand what they were and how they could start a conversation around them with their customers
-        Continuously networked within SHI to ensure I stayed in front of as many sales reps as possible
-        Assisted SHI sales reps by answering any questions they may have and helping them find the solution that would best meet their customer’s needs."
+        "Organized and conducted numerous offsite events and huddles where I would present my clients’ solutions and help the reps better understand what they were and how they could start a conversation around them with their customers",
+        "Continuously networked within SHI to ensure I stayed in front of as many sales reps as possible",
+        "Assisted SHI sales reps by answering any questions they may have and helping them find the solution that would best meet their customer’s needs."
       ]
     },
     {
@@ -97,17 +97,9 @@
         "Creator and current maintainer",
         "Built with Node.js, BreweryDB API, and React.js"
       ],
-      "keywords": [
-        "Node",
-        "REST API",
-        "React",
-        "JavaScript"
-      ],
+      "keywords": ["Node", "REST API", "React", "JavaScript"],
       "url": "https://github.com/KirbyPatrick/austinbreweryfinder",
-      "roles": [
-        "Creator",
-        "Maintainer"
-      ],
+      "roles": ["Creator", "Maintainer"],
       "entity": "Austin Coding Academy",
       "type": "Web Application"
     },
@@ -118,28 +110,17 @@
         "Uses chucknorris.io to make RESTful API calls",
         "Built with Node.js, BreweryDB API, and React.js"
       ],
-      "keywords": [
-        "Node",
-        "REST API",
-        "React",
-        "JavaScript"
-      ],
+      "keywords": ["Node", "REST API", "React", "JavaScript"],
       "url": "https://github.com/KirbyPatrick/chuck-norris-joke-genorator",
-      "roles": [
-        "Creator",
-        "Maintainer"
-      ],
+      "roles": ["Creator", "Maintainer"],
       "entity": "Austin Coding Academy",
       "type": "Web Application"
-    },
+    }
   ],
   "skills": [
     {
       "name": "Languages",
-      "keywords":
-      [
-        "JavaScript/Node.js"
-      ]
+      "keywords": ["JavaScript/Node.js"]
     },
     {
       "name": "Web Development",
@@ -151,16 +132,12 @@
         "Bootstrap / Material",
         "MongoDB",
         "Authorization / Authentication",
-        "Responsive / Mobile Development",
+        "Responsive / Mobile Development"
       ]
     },
     {
       "name": "Technologies",
-      "keywords": [
-        "Heroku",
-        "Git / GitHub",
-        "REST APIs",
-      ]
+      "keywords": ["Heroku", "Git / GitHub", "REST APIs"]
     }
   ]
 }
