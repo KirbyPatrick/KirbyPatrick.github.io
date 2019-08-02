@@ -121,7 +121,11 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": ["JavaScript/Node.js"]
+      "keywords": [
+        "JavaScript/Node.js",
+       "CSS",
+       "HTML"
+    ]
     },
     {
       "name": "Web Development",
