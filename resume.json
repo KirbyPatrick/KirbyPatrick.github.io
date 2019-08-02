@@ -40,7 +40,6 @@
       "position": "Renewal Specialist",
       "website": "https://www.lifesize.com/",
       "startDate": "2018-04-18",
-      "endDate": "Present",
       "summary": "Responsible for all renewal business, hardware and cloud.",
       "highlights": [
         "Exceeded quota set by management every quarter without fail",
@@ -121,11 +120,7 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": [
-        "JavaScript/Node.js",
-       "CSS",
-       "HTML"
-    ]
+      "keywords": ["JavaScript/Node.js", "CSS", "HTML"]
     },
     {
       "name": "Web Development",
